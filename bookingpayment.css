@@ -1,0 +1,263 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+header{
+    font-size: 1vw;
+    display: flex;
+    justify-content: space-around;
+    height: 8vw;
+    background-color: #343434;
+}
+
+
+
+a #headerlogo{
+    margin-bottom: 10vw;
+    margin-left: 5vw;
+    
+}
+
+#logo{
+    height: 10vw;
+    width: 30 vw;
+    margin-left: 5vw;
+    padding-bottom: 1.7vw;
+    transition: 0.5s;
+}
+
+#logo:hover{
+    cursor: pointer;
+    opacity: 0.6;
+    transition: 0.5s;
+    
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 3.5vw;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    
+}
+
+nav a{
+    font-size: 0.9vw;
+    color: #C2B59B;
+    text-decoration: none;
+    margin-left: 4vw;
+    height: 2vw;
+}
+
+
+#menu:hover{
+    color: #C2B59B;
+    font-weight: bold;
+    text-decoration: none;
+    border-bottom: 0.2vw solid #C2B59B;
+    border-top: 0.2vw solid #C2B59B;
+    transition: 0.3s;
+}
+
+.paymentheader{
+    background-color: #343434;
+    height: 10vw;
+}
+
+.paymentheader h1{
+    padding-top: 3vw;
+    font-size: 2vw;
+    color: white;
+    text-align: center;
+}
+
+.content{
+    display: flex;
+    /* margin: 5vw; */
+    justify-content: space-around;
+}
+
+.left{
+    margin-left: 10vw;
+}
+
+.top{
+    margin-top: 4vw;
+    background-color: #343434;
+    width: 20vw;
+    border-radius: 2vw;
+    width: 20vw;
+    height: 21.5vw;
+}
+
+.top img{
+    height: 8vw;
+    margin-top: 1.5vw;
+}
+
+.bottom img{
+    height: 8vw;
+    margin-top: 1.5vw;
+}
+
+.bottom{
+    margin-top: 2vw;
+    background-color: #343434;
+    width: 15vw;
+    border-radius: 2vw;
+    width: 20vw;
+    height: 21.5vw;
+}
+
+.right{
+    margin-top: 4vw;
+    background-color: #343434;
+    border-radius: 2vw;
+    width: 50vw;
+    height: 45vw;
+    margin-right: 10vw;
+    margin-bottom: 4vw;
+}
+
+.top h3{
+    color: #C2B59B;
+    text-align: center;
+    margin-top: 1vw;
+    font-size: 1.5vw;
+}
+
+.bottom h3{
+    color: #C2B59B;
+    text-align: center;
+    margin-top: 1vw;
+    font-size: 1.5vw;
+}
+
+.top h4{
+    color: white;
+    text-align: center;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    font-size: 0.9vw;
+    margin-top: 0.4vw;
+}
+
+.bottom h4{
+    color: white;
+    text-align: center;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    font-size: 0.9vw;
+    margin-top: 0.4vw;
+}
+
+#starSize{
+    font-size: 1.2vw;
+    text-align: center;
+    padding-top: 2vw;
+    color: #faff00;
+    display: flex;
+    justify-content: space-around;
+    padding-left: 4vw;
+    padding-right: 4vw;
+    text-align: center;
+}
+
+.right h1{
+    padding-top: 2vw;
+    font-size: 2vw;
+    text-align: center;
+    color: #C2B59B;
+}
+
+.price{
+    color: white;
+    text-align: center;
+    font: 1.5vw;
+    margin-top: 4vw;
+}
+
+.leftform{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2vw;
+}
+
+.leftform h3{
+    color: #C2B59B;
+    font-size: 1.5vw;
+    margin-left: 4vw;
+}
+
+.input input{
+    margin-top: 1vw;
+    width: 25vw;
+    margin-right: 7vw;
+    height: 2vw;
+}
+
+#ServiceType{
+    margin-top: 1vw;
+    width: 25vw;
+    margin-right: 7vw;
+    height: 2vw;
+}
+
+
+.imgBg{
+    border-radius: 0.4vw;
+    width: 7vw;
+    height: 5vw;
+    background-color:white;
+}
+
+.imgBg img{
+    height: 3vw;
+    align-items: center;
+    margin-top: 1vw;
+}
+
+
+.paymentmethod{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    margin-top: 1vw;
+    margin-bottom: 3vw;
+}
+
+.payment h2{
+    font-size: 1.5vw;
+    color: #C2B59B;
+    margin-top: 2vw;
+    margin-bottom: 3vw;
+}
+
+.buybtn{
+    margin-top: 2vw;
+}
+
+.buybtn button{
+    cursor: pointer;
+    height: 3vw;
+    width: 10vw;
+    border-radius: 2vw;
+    background-color: #C2B59B;
+    color: white;
+    border: #C2B59B;
+}
+
+.buybtn button:hover{
+    background-color: #985920;
+    transition: 1s;
+    border: 3px solid #985920;
+}

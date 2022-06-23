@@ -1,0 +1,259 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+header{
+    font-size: 1vw;
+    display: flex;
+    justify-content: space-around;
+    height: 8vw;
+    background-color: #343434;
+}
+
+
+
+a #headerlogo{
+    margin-bottom: 10vw;
+    margin-left: 5vw;
+    
+}
+
+#logo{
+    height: 10vw;
+    width: 30 vw;
+    margin-left: 5vw;
+    padding-bottom: 1.7vw;
+    transition: 0.5s;
+}
+
+#logo:hover{
+    cursor: pointer;
+    opacity: 0.6;
+    transition: 0.5s;
+    
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 3.5vw;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    
+}
+
+nav a{
+    font-size: 0.9vw;
+    color: #C2B59B;
+    text-decoration: none;
+    margin-left: 4vw;
+    height: 2vw;
+}
+
+
+#menu:hover{
+    color: #C2B59B;
+    font-weight: bold;
+    text-decoration: none;
+    border-bottom: 0.2vw solid #C2B59B;
+    border-top: 0.2vw solid #C2B59B;
+    transition: 0.3s;
+}
+
+.leftheader{
+    display: flex;
+    justify-content: space-between;
+}
+
+.leftheader h1{
+    color: white;
+    font-size: 2.5vw;
+    padding-top: 4.5vw;
+    padding-left: 2vw;
+}
+
+.productheader img{
+    height: 8vw;
+}
+
+.productheader{
+    display: flex;
+    justify-content: space-between;
+    background-color: #3F3D3D;
+    padding-left: 5vw;
+    padding-right: 5vw;
+    height: 13vw;
+}
+
+.productheader a{
+    margin-top: 4.5vw;
+}
+
+#orderstatus{
+    cursor: pointer;
+    padding: 2px;
+    width: 15vw;
+    height: 3vw;
+    background:#C2B59B;
+    border-radius: 2vw;
+    color: white;
+    border: 3px solid #C2B59B;
+    transition: 0.5s;
+    font-weight: bolder;
+    font-size: 0.8vw;
+    margin: 5px ;
+}
+
+#orderstatus:hover{
+    background-color: #985920;
+    transition: 1s;
+    border: 3px solid #985920;
+}
+
+.bestseller{
+    margin-bottom: 5vw;
+}
+
+.bestseller h1{
+    text-align: center;
+    padding-top: 5vw;
+    color: #343434;
+    font-size: 3vw;
+}
+
+.bestproduct{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 10vw;
+    margin-left: 5vw;
+    margin-right: 5vw;
+}
+
+.productbest{
+    background-color: #343434;
+    padding: 2vw;
+    text-align: center;
+    color: #C2B59B;
+    border-radius: 2vw;
+    width: 15vw;
+    
+}
+
+.productbest img{
+    height: 10vw;
+}
+
+
+.onsale{
+    margin-bottom: 5vw;
+}
+
+.onsale h1{
+    text-align: center;
+    color: #343434;
+    font-size: 3vw;
+}
+
+.onsaleproduct{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 10vw;
+    margin-left: 5vw;
+    margin-right: 5vw;
+}
+
+.productonsale{
+    background-color: #343434;
+    padding: 2vw;
+    text-align: center;
+    color: #C2B59B;
+    border-radius: 2vw;
+    width: 15vw;
+    
+}
+
+.productonsale img{
+    height: 10vw;
+}
+
+#linethrough{
+    text-decoration: line-through;
+}
+
+
+.limited{
+    margin-bottom: 5vw;
+}
+
+.limited h1{
+    text-align: center;
+    color: #343434;
+    font-size: 3vw;
+}
+
+.limitedproduct{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 10vw;
+    margin-left: 5vw;
+    margin-right: 5vw;
+}
+
+.productlimited{
+    background-color: #343434;
+    padding: 2vw;
+    text-align: center;
+    color: #C2B59B;
+    border-radius: 2vw;
+    width: 40vw;
+    height: 15vw;
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.productlimited img{
+    height: 10vw;
+    
+}
+
+.rightlimited{
+    margin-top: 1.5vw;
+    margin-right: 2vw;
+}
+
+.rightlimited p{
+    font-size: 1.5vw;
+}
+
+#buynow{
+    margin-top: 1vw;
+    cursor: pointer;
+    padding: 2px;
+    width: 8vw;
+    height: 2.5vw;
+    background:#C2B59B;
+    border-radius: 2vw;
+    color: white;
+    border: 3px solid #C2B59B;
+    transition: 0.5s;
+    font-weight: bolder;
+    font-size: 0.6vw;
+}
+
+#buynow:hover{
+    background-color: #985920;
+    transition: 1s;
+    border: 3px solid #985920;
+}
+
+
+
+

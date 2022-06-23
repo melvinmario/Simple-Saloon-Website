@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+header{
+    font-size: 1vw;
+    display: flex;
+    justify-content: space-around;
+    height: 8vw;
+    background-color: #343434;
+}
+
+
+
+a #headerlogo{
+    margin-bottom: 10vw;
+    margin-left: 5vw;
+    
+}
+
+#logo{
+    height: 10vw;
+    width: 30 vw;
+    margin-left: 5vw;
+    padding-bottom: 1.7vw;
+    transition: 0.5s;
+}
+
+#logo:hover{
+    cursor: pointer;
+    opacity: 0.6;
+    transition: 0.5s;
+    
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 3.5vw;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    
+}
+
+nav a{
+    font-size: 0.9vw;
+    color: #C2B59B;
+    text-decoration: none;
+    margin-left: 4vw;
+    height: 2vw;
+}
+
+
+#menu:hover{
+    color: #C2B59B;
+    font-weight: bold;
+    text-decoration: none;
+    border-bottom: 0.2vw solid #C2B59B;
+    border-top: 0.2vw solid #C2B59B;
+    transition: 0.3s;
+}
+
+.chatheader{
+    padding-top: 3vw;
+    text-align: center;
+    background-color: #343434;
+    height: 15vw;
+}
+
+.chatheader h1{
+    color: white;
+    font-size: 3vw;
+}
+
+.chatheader h2{
+    color: #C2B59B;
+    font-size: 1.3vw;
+}
+
+.chat{
+    background-color: #343434;
+    border-radius: 2vw;
+    height: 35vw;
+    margin: 5vw;
+}
+
+.chatheaderchat{
+    display: flex;
+    justify-content: center;
+    padding-top: 3vw;
+}
+
+.chat img{
+    height: 3.5vw;
+    margin-right: 2vw;
+}
+
+.chatcontent{
+    background-color: white;
+    border-radius: 2vw;
+    width: 80vw;
+    margin-left: 4vw;
+    margin-top: 3vw;
+    height: 20vw;
+}
+
+.chat h1{
+    text-align: center;
+    color: #C2B59B;
+    font-size: 2vw;
+
+}
+
+.chat h3{
+    text-align: center;
+    color: white;
+    font-size: 0.8vw;
+}
+
+.barberchat{
+    display: flex;
+    padding-top: 2vw;
+    margin-left: 2vw;
+}
+
+.custchat{
+    display: flex;
+    margin-left: 50vw;
+    padding-top: 2vw;
+}
+
+.custchat img{
+    margin-left: 2vw;
+}
+
+.chatcontent p{
+    background-color: #C2B59B;
+    color: white;
+    border-radius: 1vw;
+    padding-top: 0.5vw;
+    padding-left: 0.5vw;
+    padding-right: 0.5vw;
+    padding-bottom: 0.5vw;
+}

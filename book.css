@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+header{
+    font-size: 1vw;
+    display: flex;
+    justify-content: space-around;
+    height: 8vw;
+    background-color: #343434;
+}
+
+
+
+a #headerlogo{
+    margin-bottom: 10vw;
+    margin-left: 5vw;
+    
+}
+
+#logo{
+    height: 10vw;
+    width: 30 vw;
+    margin-left: 5vw;
+    padding-bottom: 1.7vw;
+    transition: 0.5s;
+}
+
+#logo:hover{
+    cursor: pointer;
+    opacity: 0.6;
+    transition: 0.5s;
+    
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 3.5vw;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    
+}
+
+nav a{
+    font-size: 0.9vw;
+    color: #C2B59B;
+    text-decoration: none;
+    margin-left: 4vw;
+    height: 2vw;
+}
+
+
+#menu:hover{
+    color: #C2B59B;
+    font-weight: bold;
+    text-decoration: none;
+    border-bottom: 0.2vw solid #C2B59B;
+    border-top: 0.2vw solid #C2B59B;
+    transition: 0.3s;
+}
+
+.chooseheader h1{
+    font-size: 2.5vw;
+    color: #985920;
+    text-align: center;
+    margin-top: 5vw;
+}
+
+.content{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 4vw;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    margin-bottom: 10vw;
+}
+
+.leftcontent{
+    background-image: url(assets/in\ home\ service.png);
+    height: 32vw;
+    width: 30vw;
+    border-radius: 2vw;
+}
+
+.rightcontent{
+    background-image: url(assets/book\ barber.png);
+    height: 32vw;
+    width: 30vw;
+    border-radius: 2vw;
+}
+
+.content h2{
+    color: white;
+    font-size: 2.5vw;
+    text-align: center;
+    padding-top: 20vw;
+    -webkit-text-stroke: 0.1vw;
+    -webkit-text-stroke-color: black;
+}
+
+.content a{
+    text-decoration: none;
+}
+
+.bookingstatus h1{
+    font-size: 2.5vw;
+    color: #985920;
+    text-align: center;
+    margin-top: 5vw;
+    margin-bottom: 3vw;
+}
+
+.bookingstatus h2{
+    background-color: #C2B59B;
+    border-radius: 2vw;
+    font-size: 0.8vw;
+    width: 30vw;
+    text-align: center;
+    height: 3vw;
+    color: white;
+    padding-top: 0.8vw;
+    /* margin-top: 4vw;
+    margin-left: 30vw; */
+}
+
+.bookingstatus a{
+    text-decoration: none;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 6vw;
+}
+
+.bookingstatus h2:hover{
+    background-color: #985920;
+    transition: 1s;
+    border: 3px solid #985920;
+}

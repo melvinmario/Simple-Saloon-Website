@@ -1,0 +1,173 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+header{
+    font-size: 1vw;
+    display: flex;
+    justify-content: space-around;
+    height: 10vw;
+    background-color: #343434;
+}
+
+
+
+a #headerlogo{
+    margin-bottom: 10vw;
+    margin-left: 5vw;
+    
+}
+
+#logo{
+    height: 10vw;
+    width: 30 vw;
+    margin-left: 5vw;
+    padding-bottom: 1.7vw;
+    transition: 0.5s;
+}
+
+#logo:hover{
+    cursor: pointer;
+    opacity: 0.6;
+    transition: 0.5s;
+    
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 3.5vw;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    
+}
+
+nav a{
+    font-size: 0.9vw;
+    color: #C2B59B;
+    text-decoration: none;
+    margin-left: 4vw;
+    height: 2vw;
+}
+
+
+#menu:hover{
+    color: #C2B59B;
+    font-weight: bold;
+    text-decoration: none;
+    border-bottom: 0.2vw solid #C2B59B;
+    border-top: 0.2vw solid #C2B59B;
+    transition: 0.3s;
+}
+
+.title{
+    background-color: #343434;
+    height: 10vw;
+    padding-top: 4vw;
+    color: white;
+
+
+}
+.titlext{
+    background-color: #343434;
+    height: 8vw;
+    padding-top: -2vw;
+    color: #B4A890;
+
+}
+
+.squarebg{
+    background-color: #343434;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    margin-top: 5vw;
+    border-radius: 2vw;
+    height: 30vw;
+    display: flex;
+    justify-content: space-around;
+    color: white;
+}
+
+#squareright{
+    text-align: center;
+    padding-top: 8vw;
+    font-size: 1vw;
+
+}
+
+#squareleft{
+    text-align: center;
+    padding-top: 5vw;
+    image-resolution: 3vw;
+    justify-content: space-around;
+}
+
+#squarerightColor{
+    color: #B4A890;
+    font-size: 3vw;
+    
+}
+
+#squareleft img{
+    height: 15vw;
+}
+
+#mainbtn{
+    cursor: pointer;
+   
+    width: 15vw;
+    height: 4vw;
+    background:#C2B59B;
+    border-radius: 2vw;
+    color: white;
+    border: 3px solid #C2B59B;
+    transition: 0.5s;
+    font-weight: bolder;
+    font-size: 0.8vw;
+    margin: 5px ;
+    
+}
+
+#mainbtn:hover{
+    background-color: #985920;
+    transition: 1s;
+    border: 3px solid #985920;
+}
+
+#starSize{
+    font-size: 2vw;
+    text-align: center;
+    padding-top: 3vw;
+    color: #faff00;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.footer{
+    background-color: #2C2C2C;
+    display: flex;
+    justify-content: space-around;
+    height: 25vw;
+}
+
+.footercontent{
+    margin-top: 6vw;
+    color: white;
+}
+
+.footercontent h3{
+    font-size: 1.5vw;
+    margin-bottom: 2vw;
+}
+
+.footercontent p{
+    font-size: 1vw;
+}
